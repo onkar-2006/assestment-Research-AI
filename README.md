@@ -66,7 +66,8 @@ cd backend
 python main.py
 
 # Start the Frontend
-cd 
+cd frontend
 npm install
+cd agent-ui 
 npm run dev 
 
