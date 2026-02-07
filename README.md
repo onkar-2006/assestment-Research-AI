@@ -23,7 +23,7 @@
 
 ---
 
-![Research AI Workflow](./assets/workflow.png)
+![Research AI Workflow](../assets/workflow.png)
 
 ## 🏗️ Architecture
 The system utilizes a **StateGraph architecture** to manage complex, non-linear conversation flows:
