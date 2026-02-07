@@ -1,0 +1,55 @@
+# --- Environment Variables & Secrets ---
+.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environments ---
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# --- Local Vector Database (FAISS) ---
+# We ignore the local index because it should be regenerated from source docs
+faiss_index/
+*.index
+*.pkl
+
+# --- Research Agent Specifics ---
+# If you store uploaded PDFs in a local folder, ignore them to keep the repo light
+storage/
+uploads/
+*.pdf
+
+# --- Node.js (React Frontend) ---
+node_modules/
+/client/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/client/build/
+/client/.pnp
+/client/.pnp.js
